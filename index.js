@@ -52,9 +52,3 @@ module.exports = function (name, defaults, argv, parse) {
     configFiles.length ? {configs: configFiles, config: configFiles[configFiles.length - 1]} : undefined,
   ]))
 }
-
-if(!module.parent) {
-  console.log(
-    JSON.stringify(module.exports(process.argv[2]), false, 2)
-  )
-}
