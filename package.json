@@ -1,5 +1,5 @@
 {
-  "name": "rc",
+  "name": "@hakatashi/rc",
   "version": "2.0.0",
   "description": "hardwired configuration loader",
   "main": "index.js",
